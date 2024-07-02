@@ -204,7 +204,7 @@ def main():
             fae_status_list = ['WAIT FAE INFO','Resolved', 'RELEASED', 'WORKED AROUND', 'Patched', 'HW AE', '未开始','已解决'  ]  # 替换为你的FAE 状态列表
             # 登录 JIRA
             username = 'yabo.gong@outlook.com'
-            password = 'XXXXXX'
+            password = 'XXXXXXXX'
             jira = login_jira(username, password)
             print("成功登录JIRA。")
             try:
